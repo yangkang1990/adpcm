@@ -1,0 +1,17 @@
+libadpcm (0.4) unstable; urgency=low
+
+  * Support variable frame size.
+
+ -- Piotr Ziecik <pizi@nordicsemi.no>  Tue, 03 Nov 2015 17:07:34 +0100
+
+libadpcm (0.3) unstable; urgency=low
+
+  * Use other ADPCM codec implementation.
+
+ -- Lauro Ramos Venancio <laurov@laurov-laptop>  Tue, 16 Sep 2014 14:15:53 +0800
+
+libadpcm (0.1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Lauro Ramos Venancio <lauro.venancio@openbossa.org>  Mon, 29 Apr 2013 19:35:40 -0300

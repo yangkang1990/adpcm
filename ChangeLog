@@ -1,0 +1,9 @@
+2013-11-06  Audun Korneliussen    <audun.korneliussen@nordicsemi.no>
+	* libadpcm: Using a different ADPCM codec implementation. Packet size
+		now 259 bytes (previously 256 bytes). Output is unchanged
+		(16 kHz 16 bit).
+
+2013-04-29  Lauro Ramos Venancio  <lauro.venancio@openbossa.org>
+
+	* libadpcm: initial version.
+

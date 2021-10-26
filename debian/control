@@ -1,0 +1,18 @@
+Source: libadpcm
+Priority: extra
+Maintainer: Lauro Ramos Venancio <lauro.venancio@openbossa.org>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Section: libs
+
+Package: libadpcm-dev
+Section: libdevel
+Architecture: any
+Depends: libadpcm0 (= ${binary:Version})
+Description: ADPCM Library development package
+
+Package: libadpcm0
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: ADPCM Library
